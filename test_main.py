@@ -1,5 +1,5 @@
 from main import add
-from main import sub
+from child import sub
 
 def test_add():
     assert add(2, 3) == 5
