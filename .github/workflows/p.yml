@@ -6,6 +6,14 @@ on:
       - main
       - child
 
+#on:
+#  push:
+#    branches:
+#      - '**'    # run tests when pushing to any branch
+#  pull_request:
+#    branches:
+#      - '**'    # run tests when pull request targets any branch
+
 jobs:
   test:
     runs-on: ubuntu-latest
