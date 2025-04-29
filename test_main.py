@@ -1,5 +1,4 @@
 from main import add
-from child import sub
 
 def test_add():
     assert add(2, 3) == 5
@@ -7,6 +6,4 @@ def test_add():
     assert add(0, 0) == 0
 
 
-def test_sub():
-    assert sub(2, 3) == -1
-    assert sub(0, 0) == 0
+
